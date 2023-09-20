@@ -19,7 +19,8 @@ public class Progtest {
 		Carte familleAsDuVolant = new Botte(1,Type.ACCIDENT);
 		
 		Sabot sabot = new Sabot();
-		sabot.ajouterFamilleCarte(familleAccident, familleReparation, familleAsDuVolant);
+		sabot.ajouterFamilleCarte(familleAccident);
+		sabot.ajouterFamilleCarte(familleReparation, familleAsDuVolant);
 		
 		affichage(sabot.piocher());
 		affichage(sabot.piocher());
@@ -29,7 +30,5 @@ public class Progtest {
 		affichage(sabot.piocher());
 		affichage(sabot.piocher());
 		
-		
-
 	}
 }
