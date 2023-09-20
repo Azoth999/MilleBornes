@@ -11,5 +11,11 @@ public abstract class Carte {
 	public int getNombre() {
 		return nombre;
 	}
+	
+	@Override
+	public String toString() {
+		
+		return super.toString();
+	}
 }
 	
